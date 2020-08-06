@@ -43,7 +43,7 @@ void show_info( struct utmpx *utmpxp )
 	printf(" ");				/* a space	*/
 	printf("%-8.8s", utmpxp->ut_line);	/* the tty	*/
 	printf(" ");				/* a space	*/
-    show_time(utmpxp->ut_tv.tv_sec);
+        show_time(utmpxp->ut_tv.tv_sec);        /* display time */
 	printf(" ");				/* a space	*/
 #ifdef	SHOWHOST
 	if (strlen(utmpxp->ut_host) != 0) {
