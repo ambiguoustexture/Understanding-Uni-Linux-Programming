@@ -6,4 +6,4 @@
 - ls1.c
     - The readdir() function used here returns a pointer to the next directory entry.
 - ls2.c
-    - implement ```ls -l```
+    - Implement ```ls -l```
