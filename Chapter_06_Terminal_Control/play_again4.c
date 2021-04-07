@@ -1,6 +1,6 @@
 /* play_again4.c
  *      purpose: ask if user wants another transaction
- *       method: set tty int chr-by-chr, no-echo mode
+ *       method: set tty into chr-by-chr, no-echo mode
  *               set tty into no-delay mode
  *               read char, return result
  *               resets char, return result
